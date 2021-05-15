@@ -1,0 +1,70 @@
+body {
+    display: grid;
+    /* align-items: center;
+  justify-content: center;
+  align-content: center; */
+    background-color: rgba(255, 253, 253, 0.568);
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    color: black;
+}
+
+.card {
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+    min-height: 100px;
+    width: 30px;
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+label {
+    color: #F0A384;
+}
+
+.password-result {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #181934;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.btn-sub {
+    width: 250px;
+    height: 40px;
+    background-color: rgba(109, 109, 99, 0.308);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    font-weight: bolder;
+}
+
+@media only screen and (min-width: 768px) {
+    .card {
+        width: 100%;
+    }
+    .container {
+        display: block;
+    }
+}
