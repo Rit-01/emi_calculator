@@ -11,41 +11,43 @@
 </head>
 
 <body>
-    <div class="container" style="margin-top: 50px; display: flex;">
 
+    <h1>Emi Calculator</h1>
+
+    <div class="container" style="margin-top: 50px; display: flex; border: 1px solid black;">
         <div class="card">
-            <H1>EMI Calculator</H1>
+            <H2>EMI Calculator</H2>
             <hr>
             <form name="loan-form">
                 <div class='loanBlock'>
-                    <h3>Loan Amount</h3>
+                    <h4>Loan Amount</h4>
                     <input type=number id="amount" style="border-radius:5px; border-color: beige;"><br>
                 </div>
                 <div class='aprBlock'>
-                    <h3>Interest Rate (%)</h3>
+                    <h4>Interest Rate (%)</h4>
                     <input type="number" name="apr" id="apr" style="border-radius:5px; border-color: beige;"><br>
                 </div>
                 <div class='tenureBlock'>
-                    <h3>Time Periods(yrs)</h3>
+                    <h4>Time Periods(yrs)</h4>
                     <input type=number name="tenure" id="tenure" style="border-radius:5px;border-color: beige;"><br>
                     <br>
                 </div>
                 <div class="d-flex">
-                    <button style="border-radius:10px; margin-left: 100px;margin-top: 30px;" id="find" class="btn-sub">Find Emi</button>
+                    <button style="border-radius:10px; margin-left: 100px;margin-top: 130px;" id="find" class="btn-sub">Find Emi</button>
                 </div>
             </form>
 
         </div>
+
+
         <div class="card">
-
-            <h1>Results</h1>
+            <h2>Results</h2>
             <hr><br/>
-            <h3>Total EMI:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="emi"></span></h3>
-            <h3>Total Amount: &nbsp;&nbsp;&nbsp;&nbsp;<span id="totalAmt"></span></h3>
-            <h3>Total Interest:&nbsp;&nbsp;&nbsp;&nbsp;<span id="totalInt"></span></h3>
+            <h4>Total EMI :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="emi"></span></h4>
+            <h4>Total Amount : &nbsp;&nbsp;&nbsp;&nbsp;<span id="totalAmt"></span></h4>
+            <h4>Total Interest :&nbsp;&nbsp;&nbsp;&nbsp;<span id="totalInt"></span></h4>
 
-
-            <div id="chartContainer" style="height: 300px; width: 500px; margin-top: 50px;"></div>
+            <div id="chartContainer" style="height: 350px; width: 600px; margin-top: 50px;"></div>
 
         </div>
 
